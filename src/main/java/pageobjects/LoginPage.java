@@ -21,5 +21,4 @@ public class LoginPage extends WebDriverBase {
   public boolean isLoginLoaded() {
     return isElementPresent(username);
   }
-
 }
