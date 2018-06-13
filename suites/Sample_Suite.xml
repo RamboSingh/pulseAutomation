@@ -2,12 +2,13 @@
 <suite name="Sample Test Suite" configfailurepolicy="skip">
   <listeners>
     <listener
-      class-name="com.pearson.common.framework.web.listener.HtmlReportListener" />
+      class-name="com.pearson.common.framework.shared.report.GenericListener"/>
   </listeners>
 
-  <test name="Sample Test Cases" configfailurepolicy="skip">
+  <test name="Pulse Automation" configfailurepolicy="skip">
     <classes>
-      <class name="tests.SampleWebTest" />
+      <class name="tests.api.GeoID"/>
+<!--       <class name="tests.api.SampleAPITest"/> -->
     </classes>
   </test>
 </suite>
